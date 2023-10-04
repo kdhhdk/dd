@@ -12,6 +12,7 @@ public class LogFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         log.info("log filter init");
+        log.info("tset");
     }
 
     @Override
